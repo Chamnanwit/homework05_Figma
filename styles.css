@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+
+}
+
+/* Nav */
+
+nav {
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+}
+
+nav a {
+    margin-inline: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/* index */
+
+.mybio {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    margin: 50px;
+    height: 200px;
+}
+
+.mybio > img {
+    height: 150px;
+    border-radius: 50%;
+    margin-block: auto;
+}
+
+.mybiodata {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+/* Footer */
+
+footer {
+    height: 100px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.IconsConcact > i {
+    margin-inline: 15px;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
